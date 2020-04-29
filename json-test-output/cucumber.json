@@ -1,0 +1,174 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "FreeCRM add new Contact",
+        "description": "",
+        "id": "freecrm-contact-feature;freecrm-add-new-contact",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7070889000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is already on login page",
+            "match": {
+              "location": "HomeStepDefinition.user_is_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 130388000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Title of login page is \u003c\"Cogmento CRM\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cogmento CRM",
+                  "offset": 25
+                }
+              ],
+              "location": "HomeStepDefinition.title_of_login_page_is(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 434994400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User login into application",
+            "match": {
+              "location": "HomeStepDefinition.user_login_into_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5052939100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify login successful on Home page",
+            "match": {
+              "location": "HomeStepDefinition.verify_login_successful_on_Home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 332848000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verfiy all menu options are present on Home page",
+            "match": {
+              "location": "HomeStepDefinition.verfiy_all_menu_options_are_present_on_Home_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Home"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Calendar"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "Contacts"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "Companies"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "Deals"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "Tasks"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "Cases"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "Calls"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "Documents"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "Email"
+                ],
+                "line": 20
+              },
+              {
+                "cells": [
+                  "Campaigns"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "Forms"
+                ],
+                "line": 22
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3165672300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Logout",
+            "match": {
+              "location": "HomeStepDefinition.logout()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "FreeCRM Contact Feature",
+    "description": "",
+    "id": "freecrm-contact-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/RashmiP2/eclipse-workspace/FreeCrmBDDFramwork/src/main/java/Features/FreeCRM_Home.feature"
+  }
+]

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.187731">
+<testcase classname="FreeCRM Contact Feature" name="FreeCRM add new Contact" time="16.187731">
+<system-out><![CDATA[Given User is already on login page.........................................passed
+When Title of login page is <"Cogmento CRM">................................passed
+Then User login into application............................................passed
+And Verify login successful on Home page....................................passed
+And Verfiy all menu options are present on Home page........................passed
+And Logout..................................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
