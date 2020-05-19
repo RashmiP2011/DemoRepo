@@ -138,7 +138,7 @@ formatter.match({
   "location": "CompaniesStepDefinition.user_is_already_on_login_page()"
 });
 formatter.result({
-  "duration": 10079819600,
+  "duration": 7960146700,
   "status": "passed"
 });
 formatter.match({
@@ -151,36 +151,33 @@ formatter.match({
   "location": "CompaniesStepDefinition.title_of_login_page_is(String)"
 });
 formatter.result({
-  "duration": 388230800,
-  "status": "passed"
+  "duration": 78902200,
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Cogmento CRM]\u003e but was:\u003c[ui.freecrm.com]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat com.qa.pages.LoginPage.verifyLoginTitle(LoginPage.java:37)\r\n\tat CompaniesStepDefinition.CompaniesStepDefinition.title_of_login_page_is(CompaniesStepDefinition.java:25)\r\n\tat ✽.When Title of login page is \u003c\"Cogmento CRM\"\u003e(C:/Users/RashmiP2/eclipse-workspace/FreeCrmBDDFramwork/src/main/java/Features/FreeCRM_Companies.feature:7)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "CompaniesStepDefinition.user_login_into_application()"
 });
 formatter.result({
-  "duration": 319149500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CompaniesStepDefinition.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 5072572300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CompaniesStepDefinition.navigate_to_Companies_page()"
 });
 formatter.result({
-  "duration": 109319800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CompaniesStepDefinition.click_on_add_new_Company()"
 });
 formatter.result({
-  "duration": 3314841400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -200,15 +197,13 @@ formatter.match({
   "location": "CompaniesStepDefinition.enter_and_save(String,String,String)"
 });
 formatter.result({
-  "duration": 6158817400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CompaniesStepDefinition.logout()"
 });
 formatter.result({
-  "duration": 1890920300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenarioOutline({
   "comments": [
@@ -332,9 +327,8 @@ formatter.match({
   "location": "CompaniesStepDefinition.user_is_already_on_login_page()"
 });
 formatter.result({
-  "duration": 2881187200,
-  "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome\u003d81.0.4044.122)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027RASHMIP2-MSD1\u0027, ip: \u0027172.18.15.212\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\\Users\\RashmiP2\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:63844}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1124111fb8f3c643551990fcb96e4b6f\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat com.qa.util.TestBase.initialization(TestBase.java:63)\r\n\tat CompaniesStepDefinition.CompaniesStepDefinition.user_is_already_on_login_page(CompaniesStepDefinition.java:18)\r\n\tat ✽.Given User is already on login page(C:/Users/RashmiP2/eclipse-workspace/FreeCrmBDDFramwork/src/main/java/Features/FreeCRM_Companies.feature:23)\r\n",
-  "status": "failed"
+  "duration": 7409842500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -346,7 +340,9 @@ formatter.match({
   "location": "CompaniesStepDefinition.title_of_login_page_is(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2125284400,
+  "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d81.0.4044.138)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027RASHMIP2-MSD1\u0027, ip: \u0027169.254.63.35\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\\Users\\RashmiP2\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:49948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 6f5b3cacdd083dab2f541762120d1c50\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)\r\n\tat com.qa.pages.LoginPage.verifyLoginTitle(LoginPage.java:37)\r\n\tat CompaniesStepDefinition.CompaniesStepDefinition.title_of_login_page_is(CompaniesStepDefinition.java:25)\r\n\tat ✽.When Title of login page is \u003c\"Cogmento CRM\"\u003e(C:/Users/RashmiP2/eclipse-workspace/FreeCrmBDDFramwork/src/main/java/Features/FreeCRM_Companies.feature:24)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "CompaniesStepDefinition.user_login_into_application()"
